@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<head>
 	<title>Processing</title>
 </head>
 <body>
@@ -10,7 +11,7 @@
 		 $gender = $_POST["gender"];
 		 $fav_book =$_POST["book"];
 		 $fav_car = $_POST["car"];
-
+		include 'CreateConnection.php';
 	 ?>
 	 <h2>Thank you <?php echo $name?>  for registering 
 	 		<?php echo $course?>
