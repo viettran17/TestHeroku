@@ -36,7 +36,7 @@
             echo '<li>Course  :' . $row['course'] . "</li>";
             echo '<li>DoB     :' . $row['dob'] . "</li>";
             echo '<li>Gender  :' . $row['gender'] . "</li>";
-            echo '<li>Favorite:' . $row['fav'] . "</li>" . <br>;
+            echo '<li>Favorite:' . $row['fav'] . "</li>";
             }
         ?>
     </ul>
