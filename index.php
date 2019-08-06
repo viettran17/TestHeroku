@@ -32,11 +32,11 @@
         <h1>INFOMATION</h1>
         <?php
             foreach ($resultSet as $row) {
-            echo '<li>' . $row['studentname'] . "</li>";
-            echo '<li>' . $row['course'] . "</li>";
-            echo '<li>' . $row['dob'] . "</li>";
-            echo '<li>' . $row['gender'] . "</li>";
-            echo '<li>' . $row['fav'] . "</li>";
+            echo '<li>Name    :' . $row['studentname'] . "</li>";
+            echo '<li>Course  :' . $row['course'] . "</li>";
+            echo '<li>DoB     :' . $row['dob'] . "</li>";
+            echo '<li>Gender  :' . $row['gender'] . "</li>";
+            echo '<li>Favorite:' . $row['fav'] . "</li>";
             }
         ?>
     </ul>
